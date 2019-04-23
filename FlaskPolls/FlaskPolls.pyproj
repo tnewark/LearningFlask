@@ -46,6 +46,7 @@
     <Folder Include="FlaskPolls\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CustomProfile.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="FlaskPolls\models\samples.json" />
     <Content Include="FlaskPolls\static\content\bootstrap.css" />
@@ -76,6 +77,7 @@
     <Content Include="FlaskPolls\templates\index.html" />
     <Content Include="FlaskPolls\templates\layout.html" />
     <Content Include="FlaskPolls\templates\results.html" />
+    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
